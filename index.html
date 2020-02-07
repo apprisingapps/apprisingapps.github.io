@@ -8,7 +8,7 @@
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  
+
   <!-- ** Plugins Needed for the Project ** -->
   <!-- Bootstrap -->
   <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
@@ -36,7 +36,7 @@
 
   <!-- Main Stylesheet -->
   <link href="css/style.css" rel="stylesheet">
-  
+
   <!--Favicon-->
 	<link rel="icon" href="images/favicon/favicon-32x32.png" type="image/x-icon" />
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/favicon/favicon-144x144.png">
@@ -47,7 +47,7 @@
 
 <body>
 
-	
+
 
 	<div class="body-inner">
 
@@ -60,52 +60,23 @@
 				data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="fa fa-bars"></span>
 			</button>
-		
+
 
 			<div class="collapse navbar-collapse text-center" id="navigation">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
 						<a class="nav-link" href="home.html">Home</a></a>
 					</li>
-				
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-							aria-expanded="false">
-							Company
-						</a>
-						<div class="dropdown-menu">
-							<a class="dropdown-item" href="about.html">About Us</a>
-							<a class="dropdown-item" href="service.html">Services</a>
-							<a class="dropdown-item" href="career.html">Career</a>
-							<a class="dropdown-item" href="testimonial.html">Testimonials</a>
-							<a class="dropdown-item" href="faq.html">Faq</a>
-						</div>
+					<li class="nav-item">
+						<a class="nav-link" href="#service">Blox</a></a>
 					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-							aria-expanded="false">
-							Portfolio
-						</a>
-						<div class="dropdown-menu">
-							<a class="dropdown-item" href="portfolio-classic.html">Portfolio Classic</a>
-							<a class="dropdown-item" href="portfolio-static.html">Portfolio Static</a>
-							<a class="dropdown-item" href="portfolio-item.html">Portfolio Single</a>
-						</div>
+					<li class="nav-item">
+						<a class="nav-link" href="#feature">Security</a></a>
 					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-							aria-expanded="false">
-							Pages
-						</a>
-						<div class="dropdown-menu">
-							<a class="dropdown-item" href="team.html">Our Team</a>
-							<a class="dropdown-item" href="about2.html">About Us - 2</a>
-							<a class="dropdown-item" href="service2.html">Services - 2</a>
-							<a class="dropdown-item" href="service-single.html">Services Single</a>
-							<a class="dropdown-item" href="pricing.html">Pricing Table</a>
-							<a class="dropdown-item" href="404.html">404 Page</a>
-						</div>
+					<li class="nav-item">
+						<a class="nav-link" href="#leadership">Team</a></a>
 					</li>
+
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
 							aria-expanded="false">
@@ -116,16 +87,7 @@
 							<a class="dropdown-item" href="blog-item.html">Blog Single</a>
 						</div>
 					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-							aria-expanded="false">
-							Features
-						</a>
-						<div class="dropdown-menu">
-							<a class="dropdown-item" href="typography.html">Typography</a>
-							<a class="dropdown-item" href="elements.html">Elements</a>
-						</div>
-					</li>
+
 					<li class="nav-item">
 						<a class="nav-link" href="contact.html">Contact</a></a>
 					</li>
@@ -146,25 +108,23 @@
 					<img class="" src="images/slider/bg1.jpg" alt="slider">
 				</div>
 				<div class="cd-full-width">
-					<h2>Need To Invent The Future!</h2>
-					<h3>We Making Difference To Great Things Possible</h3>
-					<a href="#0" class="btn btn-primary white cd-btn">Start Now</a>
+					<h2>Your Client's Story Matters</h2>
+					<h3>It’s not enough to know just the demographics of your clients. Find their story!</h3>
 					<a href="#0" class="btn btn-primary solid cd-btn">Learn More</a>
 				</div> <!-- .cd-full-width -->
 			</li>
-			<li>
-				<div class="overlay2">
-					<img class="" src="images/slider/bg2.jpg" alt="slider">
-				</div>
-				<div class="cd-half-width">
-					<h2>How Big Can You Dream?</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
-					<a href="#0" class="cd-btn btn btn-primary solid">Take a Tour</a>
-				</div> <!-- .cd-half-width -->
+	
+			<li class="cd-bg-video">
+				<div class="cd-full-width">
+					<h2>Better Decision Making</h2>
+					<h3>Valuable insights, wholistic data, from the client to you.</h3>
 
-				<div class="cd-half-width cd-img-container">
-					<img src="images/slider/bg-thumb1.png" alt="">
-				</div> <!-- .cd-half-width.cd-img-container -->
+					<a href="#0" class="cd-btn btn btn-primary solid">Learn more</a>
+				</div> <!-- .cd-full-width -->
+
+				<div class="cd-bg-video-wrapper" data-video="videos/clientDataVideo">
+					<!-- video element will be loaded using jQuery -->
+				</div> <!-- .cd-bg-video-wrapper -->
 			</li>
 			<li>
 				<div class="overlay2">
@@ -174,24 +134,13 @@
 					<img src="images/slider/bg-thumb2.png" alt="">
 				</div> <!-- .cd-half-width.cd-img-container -->
 				<div class="cd-half-width">
-					<h2>Your Challenge is Our Progress</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequatur cumque natus!</p>
+					<h2>Superior Client Experience</h2>
+					<p>We make best in class customer service possible by leverging your time with innovative technology.</p>
 					<a href="#0" class="cd-btn btn btn-primary white">Start</a>
 					<a href="#0" class="cd-btn btn secondary btn-primary solid">Learn More</a>
 				</div> <!-- .cd-half-width -->
 			</li>
-			<li class="cd-bg-video">
-				<div class="cd-full-width">
-					<h2>WE ARE HERE TO MAKE IT HAPPEN</h2>
-					<h3>We Making Difference To Great Things Possible</h3>
-
-					<a href="#0" class="cd-btn btn btn-primary solid">Learn more</a>
-				</div> <!-- .cd-full-width -->
-
-				<div class="cd-bg-video-wrapper" data-video="videos/video">
-					<!-- video element will be loaded using jQuery -->
-				</div> <!-- .cd-bg-video-wrapper -->
-			</li>
+		
 		</ul>
 		<!--/ cd-hero-slider -->
 
@@ -199,10 +148,11 @@
 			<nav>
 				<span class="cd-marker item-1"></span>
 				<ul>
-					<li class="selected"><a href="#0"><i class="fa fa-bicycle"></i> Invent</a></li>
-					<li><a href="#0"><i class="fa fa-hotel"></i> Dream</a></li>
-					<li><a href="#0"><i class="fa fa-android"></i> Tech</a></li>
-					<li class="video"><a href="#0"><i class="fa fa-video-camera"></i> Video</a></li>
+					<li class="selected"><a href="#0"><i class="fa fa-user-circle"></i>Story</a></li>
+					<li class="video"><a href="#0"><i class="fa fa-mobile"></i>Client</a></li>
+					<li><a href="#0"><i class="fa fa-pie-chart"></i>Experience</a></li>
+					
+					
 				</ul>
 			</nav>
 		</div> <!-- .cd-slider-nav -->
@@ -218,22 +168,22 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 heading">
-				<span class="title-icon float-left"><i class="fa fa-cogs"></i></span>
-				<h2 class="title">Tailored to your exact Needs<span class="title-desc">Simple &amp Synergic Blox. Only chooe what you need.</span></h2>
+				<span class="title-icon float-left"><i class="fa fa-hand-pointer"></i></span>
+				<h2 class="title">Sim Blox<span class="title-desc">Simple &amp Synergic. Only chooe what you need.</span></h2>
 			</div>
 		</div><!-- Title row end -->
 
 		<div class="row">
-			<div class="col-md-2 col-sm-2 wow fadeInDown" data-wow-delay=".5s">
+			<div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay=".4s">
 				<div class="service-content text-center">
-					<span class="service-icon icon-pentagon"><i class="fa fa-tachometer"></i></span>
+					<span class="service-icon icon-pentagon"><i class="fa fa-clock-o"></i></span>
 					<h3>REFERRALS</h3>
-					<p>New, direct, and timely referrals right from your client's app to your hands.</p>
+					<p>Timely, new, and referrals right from your client's app to your hands.</p>
 				</div>
 			</div>
 			<!--/ End first service -->
 
-			<div class="col-md-2 col-sm-2 wow fadeInDown" data-wow-delay="0.6s">
+			<div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay="0.6s">
 				<div class="service-content text-center">
 					<span class="service-icon icon-pentagon"><i class="fa fa-android"></i></span>
 					<h3>Branded Client App</h3>
@@ -242,223 +192,101 @@
 			</div>
 			<!--/ End Second service -->
 
-			<div class="col-md-2 col-sm-2 wow fadeInDown" data-wow-delay="0.9s">
+			<div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay="0.8s">
 				<div class="service-content text-center">
-					<span class="service-icon icon-pentagon"><i class="fa fa-shopping-cart"></i></span>
+					<span class="service-icon icon-pentagon"><i class="fa fa-search-plus"></i></span>
 					<h3>Gap AI</h3>
 					<p>More opportunities are there.  We can help you mine them and find them.</p>
 				</div>
 			</div>
 			<!--/ End Third service -->
 
-			<div class="col-md-2 col-sm-2 wow fadeInDown" data-wow-delay="1.2s">
-				<div class="service-content text-center">
-					<span class="service-icon icon-pentagon"><i class="fa fa-lightbulb-o"></i></span>
-					<h3>Wholistic Relevant Data</h3>
-					<p>The best decisions are made when all the information is clearly displayed and available.</p>
-				</div>
-			</div>
+
 			<!--/ End 4th service -->
-			<div class="col-md-2 col-sm-2 wow fadeInDown" data-wow-delay="1.5s">
+
+			<!--/ End 5th service -->
+		</div><!-- Content row end -->
+		<div class="row">
+			<div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay="1.0s">
 				<div class="service-content text-center">
-					<span class="service-icon icon-pentagon"><i class="fa fa-lightbulb-o"></i></span>
+					<span class="service-icon icon-pentagon"><i class="fa fa-cubes"></i></span>
 					<h3>INTEGRATION</h3>
-					<p>We provide seemless integration with your business sytems.</p>
+					<p>We provide seemless integration with your business sytems. </p>
 				</div>
 			</div>
 			<!--/ End 5th service -->
-			<div class="col-md-2 col-sm-2 wow fadeInDown" data-wow-delay="1.8s">
+			<div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay="1.2s">
 				<div class="service-content text-center">
-					<span class="service-icon icon-pentagon"><i class="fa fa-lightbulb-o"></i></span>
-					<h3>Task Messaging</h3>
-					<p>Have you ever had a client forget to provide requested documents or information? SmartBlox solves that.</p>
+					<span class="service-icon icon-pentagon"><i class="fa fa-tasks"></i></span>
+					<h3>Wholistic Relevant Data</h3>
+					<p>For the best decisions, data must be readily available anywhere, at any time and in a usable format.</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay="1.4s">
+				<div class="service-content text-center">
+					<span class="service-icon icon-pentagon"><i class="fa fa-wrench"></i></span>
+					<h3>Professional Collaboration</h3>
+					<p>You are a key leader in your client's professional service team. We give you tools to be one of the most valuable team leaders.</p>
+				</div>
+			</div>
+		</div><!-- Content row end -->
+				<div class="row">
+			<div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay="1.6s">
+				<div class="service-content text-center">
+					<span class="service-icon icon-pentagon"><i class="fa fa-comment"></i></span>
+					<h3>Client Communication</h3>
+					<p>Compliant client communication. Have you ever had a client forget to provide requested documents or information? SimBlox solves that.</p>
 				</div>
 			</div>
 			<!--/ End 5th service -->
+			<div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay="1.8s">
+				<div class="service-content text-center">
+					<span class="service-icon icon-pentagon"><i class="fa fa-id-card"></i></span>
+					<h3>Smart Dashboard</h3>
+					<p>We provide your client a smart but simple user experience that adjusts to increase enagement and save you time.</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay="2.0s">
+				<div class="service-content text-center">
+					<span class="service-icon icon-pentagon"><i class="fa fa-line-chart"></i></span>
+					<h3>Client Goals</h3>
+					<p>You are a key leader in your client's professional service team. We give you tools to be one of the most valuable team leaders.</p>
+				</div>
+			</div>
 		</div><!-- Content row end -->
 	</div>
 	<!--/ Container end -->
 </section>
 <!--/ Service box end -->
 
-<!-- Portfolio start -->
-<section id="portfolio" class="portfolio">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 heading">
-				<span class="title-icon classic float-left"><i class="fa fa-suitcase"></i></span>
-				<h2 class="title classic">Client Blox</h2>
-			</div>
-		</div> <!-- Title row end -->
-
-		<!--Isotope filter start -->
-		<div class="row text-right">
-			<div class="col-12">
-				<div class="isotope-nav" data-isotope-nav="isotope">
-					<ul>
-						<li><a href="#" class="active" data-filter="*">All</a></li>
-						<li><a href="#" data-filter=".web-design">Client's story</a></li>
-						<li><a href="#" data-filter=".development">Client's journey</a></li>
-						<li><a href="#" data-filter=".joomla">Engagement</a></li>
-					</ul>
-				</div>
-			</div>
-		</div><!-- Isotope filter end -->
-	</div>
-
-	<div class="container-fluid">
-		<div class="row isotope" id="isotope">
-			<div class="col-sm-3 web-design isotope-item">
-				<div class="grid">
-					<figure class="m-0 effect-oscar">
-						<img src="images/portfolio/portfolio1.jpg" alt="">
-						<figcaption>
-							<h3>Startup Business</h3>
-							<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-							<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg1.jpg"><i
-									class="fa fa-search"></i></a>
-						</figcaption>
-					</figure>
-				</div>
-			</div><!-- Isotope item end -->
-
-			<div class="col-sm-3 development isotope-item">
-				<div class="grid">
-					<figure class="m-0 effect-oscar">
-						<img src="images/portfolio/portfolio2.jpg" alt="">
-						<figcaption>
-							<h3>Easy to Lanunch</h3>
-							<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-							<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg2.jpg"><i
-									class="fa fa-search"></i></a>
-						</figcaption>
-					</figure>
-				</div>
-			</div><!-- Isotope item end -->
-
-			<div class="col-sm-3 joomla isotope-item">
-				<div class="grid">
-					<figure class="m-0 effect-oscar">
-						<img src="images/portfolio/portfolio3.jpg" alt="">
-						<figcaption>
-							<h3>Your Business</h3>
-							<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-							<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg3.jpg"><i
-									class="fa fa-search"></i></a>
-						</figcaption>
-					</figure>
-				</div>
-			</div><!-- Isotope item end -->
-
-			<div class="col-sm-3 wordpress isotope-item">
-				<div class="grid">
-					<figure class="m-0 effect-oscar">
-						<img src="images/portfolio/portfolio4.jpg" alt="">
-						<figcaption>
-							<h3>Prego Match</h3>
-							<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-							<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg4.jpg"><i
-									class="fa fa-search"></i></a>
-						</figcaption>
-					</figure>
-				</div>
-			</div><!-- Isotope item end -->
-
-			<div class="col-sm-3 joomla isotope-item">
-				<div class="grid">
-					<figure class="m-0 effect-oscar">
-						<img src="images/portfolio/portfolio5.jpg" alt="">
-						<figcaption>
-							<h3>Fashion Brand</h3>
-							<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-							<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg5.jpg"><i
-									class="fa fa-search"></i></a>
-						</figcaption>
-					</figure>
-				</div>
-			</div><!-- Isotope item end -->
-
-			<div class="col-sm-3 development isotope-item">
-				<div class="grid">
-					<figure class="m-0 effect-oscar">
-						<img src="images/portfolio/portfolio6.jpg" alt="">
-						<figcaption>
-							<h3>The Insidage</h3>
-							<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-							<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg1.jpg"><i
-									class="fa fa-search"></i></a>
-						</figcaption>
-					</figure>
-				</div>
-			</div><!-- Isotope item end -->
-
-			<div class="col-sm-3 development isotope-item">
-				<div class="grid">
-					<figure class="m-0 effect-oscar">
-						<img src="images/portfolio/portfolio7.jpg" alt="">
-						<figcaption>
-							<h3>Light Carpet</h3>
-							<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-							<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg2.jpg"><i
-									class="fa fa-search"></i></a>
-						</figcaption>
-					</figure>
-				</div>
-			</div><!-- Isotope item end -->
-
-			<div class="col-sm-3 development isotope-item">
-				<div class="grid">
-					<figure class="m-0 effect-oscar">
-						<img src="images/portfolio/portfolio8.jpg" alt="">
-						<figcaption>
-							<h3>Amazing Keyboard</h3>
-							<a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a>
-							<a class="view icon-pentagon" data-rel="prettyPhoto" href="images/portfolio/portfolio-bg3.jpg"><i
-									class="fa fa-search"></i></a>
-						</figcaption>
-					</figure>
-				</div>
-			</div><!-- Isotope item end -->
-		</div><!-- Content row end -->
-	</div><!-- Container end -->
-</section><!-- Portfolio end -->
 
 <!-- Counter Strat -->
 <section class="ts_counter p-0">
 	<div class="container-fluid">
 		<div class="row facts-wrapper wow fadeInLeft text-center">
-			<div class="facts one col-md-3 col-sm-6">
-				<span class="facts-icon"><i class="fa fa-user"></i></span>
+			<div class="facts one col-md-4 col-sm-6">
+				<span class="facts-icon"><i class="fa fa-code"></i></span>
 				<div class="facts-num">
-					<span class="counter">1200</span>
+					<span class="counter">952000</span>
 				</div>
-				<h3>Clients</h3>
+				<h3>Lines of Code</h3>
 			</div>
 
-			<div class="facts two col-md-3 col-sm-6">
+			<div class="facts two col-md-4 col-sm-6">
 				<span class="facts-icon"><i class="fa fa-institution"></i></span>
 				<div class="facts-num">
-					<span class="counter">1277</span>
+					<span class="counter">37</span>
 				</div>
-				<h3>Item Sold</h3>
+				<h3>SimBlox</h3>
 			</div>
 
-			<div class="facts three col-md-3 col-sm-6">
-				<span class="facts-icon"><i class="fa fa-suitcase"></i></span>
+			<div class="facts three col-md-4 col-sm-6">
+				<span class="facts-icon"><i class="fa fa-user-shield"></i></span>
 				<div class="facts-num">
-					<span class="counter">869</span>
+					<span class="counter">11</span>
 				</div>
-				<h3>Projects</h3>
+				<h3>Major Layers of Security</h3>
 			</div>
-
-			<div class="facts four col-md-3 col-sm-6">
-				<span class="facts-icon"><i class="fa fa-trophy"></i></span>
-				<div class="facts-num">
-					<span class="counter">76</span>
-				</div>
-				<h3>Awwards</h3>
-			</div>
-
 		</div>
 	</div>
 	<!--/ Container end -->
@@ -467,31 +295,37 @@
 
 <!-- Feature box start -->
 <section id="feature" class="feature">
+	<div class="row">
+		<div class="col-md-12 heading">
+			<span class="title-icon float-left"><i class="fa fa-hand-pointer"></i></span>
+			<h2 class="title">Security and Compliance Blox<span class="title-desc"></span></h2>
+		</div>
+	</div><!-- Title row end -->
 	<div class="container">
 		<div class="row">
 			<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
-				<span class="feature-icon float-left"><i class="fa volleyball-ball"></i></span>
+				<span class="feature-icon float-left"><i class="fa fa-shield"></i></span>
 				<div class="feature-content">
-					<h3>Bob Design</h3>
-					<p>I build stuff</p>
+					<h3>Data Encryption</h3>
+					<p>With multiple levels of encryption, all data is encrypted completely – at rest and in motion. Backups are stored on non-publicly visible networks and are encrypted at rest.</p>
 				</div>
 			</div>
 			<!--/ End first featurebox -->
 
 			<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
-				<span class="feature-icon float-left"><i class="fa fa-codepen"></i></span>
+				<span class="feature-icon float-left"><i class="fa fa-lock"></i></span>
 				<div class="feature-content">
-					<h3>Useful Shortcodes</h3>
-					<p>High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua</p>
+					<h3>Mobile Application Security</h3>
+					<p>We prioritize security which is why we utilize enterprise-level mobile application security, including multi-factor authentication, code tampering detection, data encryption, code obfuscation and more.</p>
 				</div>
 			</div>
 			<!--/ End 2nd featurebox -->
 
 			<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
-				<span class="feature-icon float-left"><i class="fa fa-film"></i></span>
+				<span class="feature-icon float-left"><i class="fa fa-th"></i></span>
 				<div class="feature-content">
-					<h3>Parallax Section</h3>
-					<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut</p>
+					<h3>Access Logging</h3>
+					<p>SimBlox loggging allows us to provide the best performance and security monitoring. Our logging includes system actions as well as the logins and commands issued by our administrators.</p>
 				</div>
 			</div>
 			<!--/ End 3rd featurebox -->
@@ -501,10 +335,10 @@
 
 		<div class="row">
 			<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
-				<span class="feature-icon float-left"><i class="fa fa-newspaper-o"></i></span>
+				<span class="feature-icon float-left"><i class="fa fa-eye"></i></span>
 				<div class="feature-content">
-					<h3>Multipurpose Concept</h3>
-					<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut</p>
+					<h3>Security Monitoring</h3>
+					<p>The SimBlox infrastructure utilizes monitoring and analytics capabilities to identify any potential malicious activity. Any suspicious activity generates further protections, security responses, and any needed further investigations.</p>
 				</div>
 			</div>
 			<!--/ End 1st featurebox -->
@@ -512,17 +346,17 @@
 			<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
 				<span class="feature-icon float-left"><i class="fa fa-desktop"></i></span>
 				<div class="feature-content">
-					<h3>Responsive Layout</h3>
-					<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut</p>
+					<h3>Physical Security</h3>
+					<p>Our servers and databases are physically secured using top security practices including: 24/7 Physical security guard services, full CCTV monitoring, and biometric readers for multi-factor authentication, and battery and generator backups.</p>
 				</div>
 			</div>
 			<!--/ End 2nd featurebox -->
 
 			<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
-				<span class="feature-icon float-left"><i class="fa fa-pagelines"></i></span>
+				<span class="feature-icon float-left"><i class="fa fa-key"></i></span>
 				<div class="feature-content">
-					<h3>Light wight Performance</h3>
-					<p>High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua</p>
+					<h3>Role Based Access</h3>
+					<p>The security and data integrity of customer blox is of the utmost importance to us.  Therefore, our technical support staff do not have direct access to the production servers where various backend services reside.  Role based access control, which is logged with audit trails, are our watchwords.</p>
 				</div>
 			</div>
 			<!--/ End 3rd featurebox -->
@@ -535,8 +369,8 @@
 			<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
 				<span class="feature-icon float-left"><i class="fa fa-recycle"></i></span>
 				<div class="feature-content">
-					<h3>Free Lifetime Updates</h3>
-					<p>Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat</p>
+					<h3>Industry Compliance</h3>
+					<p>We have utilized top wealth and insurance compliance experts to build our blox.</p>
 				</div>
 			</div>
 			<!--/ End first featurebox -->
@@ -544,8 +378,8 @@
 			<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
 				<span class="feature-icon float-left"><i class="fa fa-diamond"></i></span>
 				<div class="feature-content">
-					<h3>Endless Possibilites</h3>
-					<p>High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua</p>
+					<h3>Data Compliance</h3>
+					<p>Data privacy complaince is getting harder for companies to navigate. Our data privacy team brings peace of mind.</p>
 				</div>
 			</div>
 			<!--/ End first featurebox -->
@@ -553,8 +387,8 @@
 			<div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
 				<span class="feature-icon float-left"><i class="fa fa-whatsapp"></i></span>
 				<div class="feature-content">
-					<h3>24/7 Live Support</h3>
-					<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut</p>
+					<h3>Audits</h3>
+					<p>We utilize third-party tools and experts to audit our SimBlox to ensure data and industry compliance.</p>
 				</div>
 			</div>
 			<!--/ End first featurebox -->
@@ -576,36 +410,35 @@
 				<div class="img-block-head text-center">
 					<h2>Know More About Our Company</h2>
 					<h3>Why Choose Us</h3>
-					<p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-						Proin gravida nibh vel velit auctor Aenean sollicitudin, adipisicing elit sed lorem quis bibendum auctor.
+					<p>Still working on it.
 					</p>
 				</div>
 
 				<div class="gap-30"></div>
 
 				<div class="image-block-content">
-					<span class="feature-icon float-left"><i class="fa fa-bicycle"></i></span>
+					<span class="feature-icon float-left"><i class="fa fa-cubes"></i></span>
 					<div class="feature-content">
-						<h3>Tons of Features</h3>
-						<p>Consectetur adipisicing elit sed do eiusmod tempor incididunt ut</p>
+						<h3>Simple &amp; Synergic Blox</h3>
+						<p>Using SimBlox technology, we exactly fit your needs in a timelier fashion.  But if you need granular customization -- great!  We can do that too!</p>
 					</div>
 				</div>
 				<!--/ End 1st block -->
 
 				<div class="image-block-content">
-					<span class="feature-icon float-left"><i class="fa fa-diamond"></i></span>
+					<span class="feature-icon float-left"><i class="fa fa-project-diagram"></i></span>
 					<div class="feature-content">
-						<h3>PowerPack Theme</h3>
-						<p>Proin gravida nibh vel velit auctor Aenean sollicitudin adipisicing</p>
+						<h3>We take the time to understand your needs</h3>
+						<p>We know one size does not fit all.  You know your own needs better than anyone, but we are also here to answer your questions and provide insights.  Let's talk. </p>
 					</div>
 				</div>
 				<!--/ End 1st block -->
 
 				<div class="image-block-content">
-					<span class="feature-icon float-left"><i class="fa fa-street-view"></i></span>
+					<span class="feature-icon float-left"><i class="fa fa-tty"></i></span>
 					<div class="feature-content">
-						<h3>Day Night Support</h3>
-						<p>Simply dummy text and typesettings industry has been the industry</p>
+						<h3>Superior Support</h3>
+						<p>We take customer service very seriously.  We really do want to talk with you. We handle our own customer service. Let us help you help your clients.</p>
 					</div>
 				</div>
 				<!--/ End 1st block -->
@@ -623,8 +456,7 @@
 		<div class="row">
 			<div class="col-md-12 heading">
 				<span class="title-icon float-left"><i class="fa fa-weixin"></i></span>
-				<h2 class="title">Meet with our Team <span class="title-desc">A Quality Experience Team with 4 years
-						experience</span></h2>
+				<h2 class="title">Meet with our Leadership <span class="title-desc">Servant leadership, value-driven, people-first</span></h2>
 			</div>
 		</div><!-- Title row end -->
 
@@ -640,11 +472,9 @@
 						<h3>Vosgi Varduhi</h3>
 						<p>Web Designer</p>
 						<div class="team-social">
-							<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
-							<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
-							<a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
+						
 							<a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
-							<a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
+						
 						</div>
 					</div>
 				</div>
@@ -661,11 +491,9 @@
 						<h3>Robert Aleska</h3>
 						<p>Web Designer</p>
 						<div class="team-social">
-							<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
-							<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
-							<a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
+						
 							<a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
-							<a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
+						
 						</div>
 					</div>
 				</div>
@@ -682,11 +510,9 @@
 						<h3>Taline Voski</h3>
 						<p>Web Designer</p>
 						<div class="team-social">
-							<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
-							<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
-							<a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
+						
 							<a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
-							<a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
+						
 						</div>
 					</div>
 				</div>
@@ -1006,15 +832,15 @@
 	        <h3 class="widget-title">About Craft</h3>
 	        <p>We are a awward winning multinational company. We believe in quality and standard worldwide.</p>
 	        <h4>Address</h4>
-	        <p>1102 Saint Marys, Junction City, KS</p>
+	        <p>121 N Mead, Suite 109, Wichita KS 67202</p>
 	        <div class="row">
 	          <div class="col-md-6">
 	            <h4>Email:</h4>
-	            <p>info@craftbd.com</p>
+	            <p>info@legacybookapp.com</p>
 	          </div>
 	          <div class="col-md-6">
 	            <h4>Phone No.</h4>
-	            <p>+(785) 238-4131</p>
+	            <p>+866-620-0520</p>
 	          </div>
 	        </div>
 	        <form action="#" role="form">
