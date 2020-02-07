@@ -541,6 +541,58 @@ blockquote {
 }
 
 /* Input form */
+
+.contact {
+  background-color: #e6efff;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contact img {
+  margin-top: 10rem;
+  height: 600px;
+  min-width: auto;
+  margin-bottom: 5vh;
+}
+
+.contact .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5vh;
+  min-height: 91vh;
+  min-width: 46vh;
+  margin-bottom: 5vh;
+}
+
+.contact .agile-button {
+  background: #ea9448;
+  border-radius: 2rem;
+}
+
+.contact .agile-button:hover {
+  background: #adadad91;
+}
+
 .form-control {
   box-shadow: none;
   border: 1px solid #dedede;
@@ -1523,9 +1575,47 @@ figure.effect-oscar:hover img {
   height: 100%;
 }
 
+.imgc-hexagon span {
+  position: absolute;
+  display: block;
+  float: left;
+ 
+}
+
+.imgc-top {
+  top: 0;
+ 
+}
+
+.imgc-bottom {
+  bottom: 0px;
+ 
+ 
+}
+
+.imgc-hexagon {
+  width: 180px;
+  height: 180px;
+  position: relative;
+  display: inline-block;
+}
+
+.imgc-hexagon img {
+  width: 90%;
+  height: 90%;
+}
+
 .team-content h3 {
+  margin-top: 10px;
   margin-bottom: 0;
   font-size: 20px;
+  background-color: transparent;
+}
+
+.team-content  {
+  margin-top: 10px;
+  background-color: transparent;
+  
 }
 
 .team-content p {
@@ -3206,6 +3296,7 @@ a.close-styler {
   /* Team */
   .team {
     padding-bottom: 50px;
+    background-color: transparent;
   }
   /* Pricing */
   .plan {

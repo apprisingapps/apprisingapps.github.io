@@ -51,7 +51,17 @@ jQuery(function ($) {
     }
 
   });
-
+  // scroll to relevant nav
+  $('ul.nav').find('a').click(function(){
+    var $href = $(this).attr('href');
+    var id = $(this).attr('id');
+    if (id != "blog"){
+      var $anchor = $('#'+$href).offset();
+      window.scrollTo($anchor.left,$anchor.top);
+      return false;
+    }
+  
+});
 
 
   /* ----------------------------------------------------------- */
@@ -59,6 +69,8 @@ jQuery(function ($) {
   /* ----------------------------------------------------------- */
 
   /* Home 2 */
+
+
 
   $('.flexSlideshow').flexslider({
     slideshowSpeed: 5000,
