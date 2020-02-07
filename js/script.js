@@ -38,6 +38,13 @@ jQuery(function ($) {
     }
 
   });
+  $('.nav-link').click(function(){    
+    console.log("nav link hit");
+    var divId = $(this).attr('href');
+     $('html, body').animate({
+      scrollTop: $(divId).offset().top - 54
+    }, 100);
+  });
 
   $(window).on('scroll', function () {
 
@@ -52,16 +59,7 @@ jQuery(function ($) {
 
   });
   // scroll to relevant nav
-  $('ul.nav').find('a').click(function(){
-    var $href = $(this).attr('href');
-    var id = $(this).attr('id');
-    if (id != "blog"){
-      var $anchor = $('#'+$href).offset();
-      window.scrollTo($anchor.left,$anchor.top);
-      return false;
-    }
-  
-});
+
 
 
   /* ----------------------------------------------------------- */
