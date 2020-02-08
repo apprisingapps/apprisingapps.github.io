@@ -41,14 +41,15 @@ jQuery(function ($) {
   //nav bar adjustments
 
   $('.nav-link').click(function(){    
-  
+ 
     var divId = $(this).attr('href');
     var idText = $(this).attr('id');
     if(id == "home" || id == "contact" || id == "service" || id == "mage-block" || id == "feature" || id == "team"){
-      $('html, body').animate({
-        scrollTop: $(divId).offset().top - 54
-      }, 100);
+         $('html, body').animate({
+      scrollTop: $(divId).offset().top - 54
+    }, 100);
     }
+  
   });
   $('.navbar-nav>li>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
@@ -159,7 +160,7 @@ jQuery(function ($) {
     navigation: false, // Show next and prev buttons
     slideSpeed: 400,
     pagination: true,
-    items: 3,
+    items: 4,
     rewindNav: true,
     itemsDesktop: [1199, 3],
     itemsDesktopSmall: [979, 3],
