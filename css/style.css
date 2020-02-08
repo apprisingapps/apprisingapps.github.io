@@ -547,6 +547,10 @@ blockquote {
 
 /* Input form */
 
+#contact-submit{
+  color: #FFF;
+}
+
 .contact {
   background-color: #e6efff;
   height: auto;
@@ -591,6 +595,7 @@ blockquote {
 
 .contact .agile-button {
   background: #ea9448;
+  
   border-radius: 2rem;
 }
 
