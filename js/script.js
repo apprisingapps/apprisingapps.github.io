@@ -18,6 +18,16 @@ jQuery(function ($) {
       $('a.close-styler').click(function () {
         $('.style-switch-wrapper').removeClass('active');
       });
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        $( "#datavideo" ).remove();
+        $( "#video-quick" ).remove();
+        $( "#blox-quick").remove();
+        $( "#blox-slider" ).remove();
+
+
+        
+       }
+
     });
 
 
