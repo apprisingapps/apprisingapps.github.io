@@ -38,12 +38,17 @@ jQuery(function ($) {
     }
 
   });
+  //nav bar adjustments
   $('.nav-link').click(function(){    
-    console.log("nav link hit");
+  
     var divId = $(this).attr('href');
      $('html, body').animate({
       scrollTop: $(divId).offset().top - 54
     }, 100);
+  });
+
+  $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
   });
 
   $(window).on('scroll', function () {
