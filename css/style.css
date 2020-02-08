@@ -547,10 +547,9 @@ blockquote {
 
 /* Input form */
 
-#contact-submit{
+#contact-submit .b{
   color: #FFF;
 }
-
 .contact {
   background-color: #e6efff;
   height: auto;

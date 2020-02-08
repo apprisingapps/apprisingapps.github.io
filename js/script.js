@@ -39,14 +39,17 @@ jQuery(function ($) {
 
   });
   //nav bar adjustments
+
   $('.nav-link').click(function(){    
   
     var divId = $(this).attr('href');
-     $('html, body').animate({
-      scrollTop: $(divId).offset().top - 54
-    }, 100);
+    var idText = $(this).attr('id');
+    if(id == "home" || id == "contact" || id == "service" || id == "mage-block" || id == "feature" || id == "team"){
+      $('html, body').animate({
+        scrollTop: $(divId).offset().top - 54
+      }, 100);
+    }
   });
-
   $('.navbar-nav>li>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
   });
@@ -156,7 +159,7 @@ jQuery(function ($) {
     navigation: false, // Show next and prev buttons
     slideSpeed: 400,
     pagination: true,
-    items: 4,
+    items: 3,
     rewindNav: true,
     itemsDesktop: [1199, 3],
     itemsDesktopSmall: [979, 3],
