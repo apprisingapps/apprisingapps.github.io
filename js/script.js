@@ -7,6 +7,15 @@ Copyright Creed Enterprises LLC, 2020
 jQuery(function ($) {
   'use strict';
 
+  $(window).load(function () {
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      $( "#datavideo" ).remove();
+      $( "#video-quick" ).remove();
+      $( "#blox-quick").remove();
+      $( "#blox-slider" ).remove();
+     }
+    
+  });
 
   /* ----------------------------------------------------------- */
   /*  Style Switcher
@@ -18,15 +27,6 @@ jQuery(function ($) {
       $('a.close-styler').click(function () {
         $('.style-switch-wrapper').removeClass('active');
       });
-      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        $( "#datavideo" ).remove();
-        $( "#video-quick" ).remove();
-        $( "#blox-quick").remove();
-        $( "#blox-slider" ).remove();
-
-
-        
-       }
 
     });
 
@@ -41,9 +41,11 @@ jQuery(function ($) {
     if ($(window).scrollTop() > 100) {
 
       $('.header').addClass('header-solid animated fadeInDown');
+    
     } else {
 
       $('.header').removeClass('header-solid animated fadeInDown');
+    
 
     }
 
@@ -54,14 +56,17 @@ jQuery(function ($) {
  
     var divId = $(this).attr('href');
     var idText = $(this).attr('id');
-    if(id == "home" || id == "contact" || id == "service" || id == "mage-block" || id == "feature" || id == "team"){
+    if(idText == "home" || idText == "contact" || idText == "service" || idText == "mage-block" || idText == "feature" || idText == "team"){
          $('html, body').animate({
       scrollTop: $(divId).offset().top - 54
+      
     }, 100);
     }
   
+  
   });
   $('.navbar-nav>li>a').on('click', function(){
+    console.log("navbar collapse called");
     $('.navbar-collapse').collapse('hide');
   });
 
